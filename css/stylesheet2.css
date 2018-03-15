@@ -66,21 +66,19 @@ h3 {
 
 .advertising1 {
     grid-area: a;
-    background-color:rgba(0, 0, 0, 0.7);
     padding: 5px;
     }
 
 
 .advertising2 {
     grid-area: r;
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 5px;
     }
 
 
 .footer {
     grid-area: f;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.8);
     border-top: 1px #262828 solid;
     }
 
@@ -435,7 +433,8 @@ p.date {
 #RFTable tr:nth-child(13),
 #RFTable tr:nth-child(17){
     background-color: #44195e;
-    color: white;}
+    color: white;
+    }
 
 
 #RFTable caption {
@@ -547,6 +546,11 @@ p.date {
 @media only screen  and (min-width : 992px) {
        
 .container {
+    max-width: 1360px;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: auto;
@@ -791,6 +795,7 @@ p.date {
     background-color: #fff;
     padding-left:1em;
     padding-right: 1em;
+    padding-top:1em;
     margin: 0;
     color:black;
     grid-gap: 1em;
@@ -940,7 +945,7 @@ p.date {
     display: grid;
     grid-template-columns: repeat (8, 1fr);
     grid-template-rows: auto;
-    background-color: rgba(0, 0, 0, 0.7);
+    //background-color: rgba(0, 0, 0, 0.7);
     align-content: flex-start;
     padding: 30px;
     }
