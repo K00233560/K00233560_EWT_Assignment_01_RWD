@@ -533,6 +533,13 @@ p.date {
     }
 
 
+.sample a:link,
+.sample a:visited,
+.sample a:hover,
+.sample a:active {
+    color: black;
+    }
+
 
 
 
